@@ -12,7 +12,7 @@ package construction.singleton;
  }
  
 
- private Singleton(int x, int y)  {
+ private Singleton(int x, int y)  { 
  this.x=x;
  this.y=y;
  }
