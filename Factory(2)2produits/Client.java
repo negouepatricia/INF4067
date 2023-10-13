@@ -7,12 +7,12 @@ public class Client {
         ProduitA ProduitA = null;
 
         System.out.println("Utilisation de la premiere fabrique");
-        produitA = produitFactory1.getProduit();
-        produitA.methodeA();
+        ProduitA = produitFactory1.getProduit();
+        ProduitA.methodeA();
 
         System.out.println("Utilisation de la seconde fabrique");
-        produitA = produitFactory2.getProduit();
-        produitA.methodeA();
+        ProduitA = produitFactory2.getproduit();
+        ProduitA.methodeA();
 
     }
 }

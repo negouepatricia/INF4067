@@ -5,6 +5,10 @@ public abstract class ProduitFactory {
     }
 
     protected abstract ProduitA createProduitA();
+
+    public ProduitA getProduit() {
+        return null;
+    }
 }
 
 public class ProduitFactory1 extends ProduitFactory {

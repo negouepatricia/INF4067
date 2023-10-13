@@ -7,8 +7,8 @@ public class ProduitA1 extends ProduitA{
 
     public void methodeA(){
 
-        system.out.println("je suis un produit de type A1");
-        system.out.println("ProduitA1.methodeA()");
+        System.out.println("je suis un produit de type A1");
+        System.out.println("ProduitA1.methodeA()");
     }
 }
 

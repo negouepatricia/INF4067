@@ -1,4 +1,4 @@
-package construction.abstractFactory;
+package AbstractFactory3Produits;
 
    public abstract class ProduitA {
  
@@ -41,4 +41,22 @@ package construction.abstractFactory;
         }
    }
 
-    
+    public abstract class ProduitC {
+ 
+             public abstract void methodeC();
+
+   }
+
+   public class ProduitC1 extends ProduitC{
+
+        public void methodeC(){
+            System.out.println("ProduitC1.methodeC()");
+        }
+   }
+
+   public class ProduitC2 extends ProduitC {
+
+        public void methodeC(){
+            System.out.println("ProduitC2.methodeC()");
+        }
+   }
