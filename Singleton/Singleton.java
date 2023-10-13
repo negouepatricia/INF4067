@@ -1,4 +1,5 @@
-package construction.singleton;
+package Singleton;
+
  public final class Singleton {
  private static Singleton instance = null;
  
@@ -48,8 +49,7 @@ public static Singleton getInstance()
  
  public void affiche() 
  {
- System.out.println("\nJe suis une instance mes 
-valeurs sont : x = " + this.x + " et y = " + 
+ System.out.println("\nJe suis une instance mes valeurs sont : x = " + this.x + " et y = " + 
 this.y);
  }
 
