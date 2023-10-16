@@ -1,4 +1,4 @@
-package construction.abstractFactory;
+package AbstractFactory2Produits;
 
 public interface IProduitFactory{
 public ProduitA getProduitA();
