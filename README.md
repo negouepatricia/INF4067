@@ -1,6 +1,6 @@
 # INF4067
 
-/\*Le devoir d'INF 4067 consiste a ecrire les differents codes des differents patrons de
+Le devoir d'INF 4067 consiste a ecrire les differents codes des differents patrons de
 construction
 
 -le dossier Singleton correspond au code du patron singleton suivant l'exemple tel quel dans le cours
